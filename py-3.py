@@ -45,3 +45,20 @@
 
 
 
+# tup=(12,32,43, 45)
+# print(tup)
+# print(type(tup))
+
+
+# details = {
+#     "age": 20,
+#     "name": "mani"
+# }
+# print(details)
+# print(details["age"])
+# print(details.keys())
+# print(details.items())
+# print(details.values())
+
+
+
