@@ -83,7 +83,32 @@
 # print(prd2)
 # print(prd3)
 # prd1.get_info()
-# product_store.discount(20_00_00, 43)
+# product_store.discount(20, 43)
+
+
+
+
+
+
+
+
+
+
+# class bankaccount:
+#     def __init__(self, name , balance):
+#         self.name=name
+#         self.__balance=balance
+#     def get_balance(self):
+#         print(f"{self.get_balance} is balance")
+#     def set_balance(self, new_balance):
+#         self.__balance=new_balance
+#         print(new_balance)   
+
+# a1=bankaccount("mani" , 34_333)
+# print(a1.name)
+# a1.get_balance()
+# a1.set_balance(324_342)
+
 
 
 
