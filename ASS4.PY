@@ -57,3 +57,99 @@
 
 
 
+
+
+
+
+# class student:
+#     def __init__(self, name, roll, marks):
+#         if marks >=0: 
+#             self.__marks=marks
+#         else:
+#             print("invalid details")
+#         if name!= "": 
+#             self.__name=name
+#         else:
+#             print("invalid details")
+#         if roll >=1 and roll<=100:
+#             self.__roll=roll
+#         else:
+#             print("invalid details")
+
+#     def set_details(self, new_name, new_roll, new_marks):
+#         if new_marks >=0: 
+#             self.__marks=new_marks
+#         else:
+#             print("invalid details") 
+#         if new_name!= "": 
+#             self.__name=new_name
+#         else:
+#             print("invalid details")
+#         if new_roll >=1 and new_roll<=100:
+#             self.__roll=new_roll
+#         else:
+#             print("invalid details") 
+
+#     def get_name(self):
+#         print(self.__name)
+#     def get_roll(self):
+#         print(self.__roll)
+#     def get_marks(self):
+#         print(self.__marks)
+#     def get_att(self):
+#         print(f"name is {self.__name} and roll number is {self.__roll} and secured marks are : {self.__marks}")
+    
+# stu1=student("mani", 3, 45)
+# stu2=student("", 345,-12)
+# stu1.get_att()
+# stu1.get_marks()
+# stu1.get_name()
+# stu1.get_roll()
+# stu1.set_details("mani", 3, 43)
+# stu1.get_att()
+
+
+
+
+
+
+
+
+
+# class shapes:
+#     def __init__ (self, area):
+
+#         print(area)
+
+# class triangle(shapes):
+#     def __init__(self, b, h):
+#         bh=1/2*h*b
+#         self.b=b
+#         self.h=h
+#         super().__init__(bh)
+# class circle(shapes):
+#     def __init__(self, r):
+#         tr=3.14 * r**2
+#         self.r=r
+#         super().__init__(tr) 
+# class rectangle(shapes):
+#     def __init__(self, b, h):
+#         bh=h*b
+#         self.b=b
+#         self.h=h
+#         super().__init__(bh)
+
+# shape1=circle(20)
+# shape2=triangle(2,3)
+# shape3=rectangle(2,3)
+
+
+
+
+
+
+
+
+
+
+
