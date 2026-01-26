@@ -152,4 +152,166 @@
 
 
 
+# from abc import ABC, abstractmethod
 
+# class vehicle(ABC):
+#     def __init__(self,brand,model):
+#         self.brand = brand
+#         self.model=model
+#     @abstractmethod
+#     def details(self):
+#         pass
+
+# class bike(vehicle):
+#     def __init__(self, brand, model,cc):
+#         super().__init__(brand, model)
+#         self.cc=cc
+#     def details(self):
+#         print(f"Brand: {self.brand}, Model: {self.model}, Engine: {self.cc}cc")
+
+# class car(vehicle):
+#     def __init__(self, brand, model,seats):
+#         super().__init__(brand, model)
+#         self.seats=seats
+#     def details(self):
+#         print(f"Brand: {self.brand}, Model: {self.model}, Engine: {self.seats}seats")
+
+# vehicle1 = bike("honda", 3, 500)
+# vehicle2 = car("honda", 5, 4)
+
+# vehicle1.details()
+
+
+
+
+
+
+
+
+
+
+
+
+# from abc import ABC, abstractmethod
+
+# class employee(ABC):
+#     def __init__ (self,hours=0, cph=0 ):
+#         self.hours=hours
+#         self.cph=cph
+
+#     @abstractmethod
+#     def calculate_salary(self):
+#         pass
+
+# class parttime(employee):
+#     def __init__(self, hours, cph):
+#         super().__init__(hours, cph)
+
+#     def calculate_salary(self):
+#         print(self.cph*self.hours)
+    
+# class internship(employee):
+#     def __init__(self, cph):
+#         super().__init__(cph=cph)
+
+#     def calculate_salary(self):
+#         print(self.cph)
+    
+# class fulltime(employee):
+#     def __init__(self, cph):
+#         super().__init__(cph=cph)
+
+#     def calculate_salary(self):
+#         print(self.cph)
+    
+# person1=parttime(13, 24)
+# person2=fulltime(23_000)
+# person3=internship(1500)
+# person1.calculate_salary()
+# person2.calculate_salary()
+# person3.calculate_salary()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# class person:
+#     name=0
+#     age=0
+#     adr=0
+
+#     def __init__(self, name, age=None , adr=None):
+#         self.name=name
+#         self.age=age
+#         self.adr=adr
+    
+# person1=person("mani")
+# person2=person("HN", 23)
+# person3=person("FHG",  45, "sri ram nagar")
+# print(person1.name, person1.age, person1.adr)
+# print(person2.name, person2.age, person2.adr)
+# print(person3.name, person3.age, person3.adr)
+
+
+
+
+
+
+
+
+
+
+# class play:
+#     count=0
+#     def __init__(self, name,level):
+#         self.name=name
+#         self.level = level
+#         self.count+=1
+#     def get_count(self):
+#         print(self.count)
+
+# player1=play("mani", 1)
+# print(player1.name, player1.level)
+# player1.get_count()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# class Herbivore:
+#     def eat_plants(self):
+#         print("Eats plants")
+# class Omnivore:
+#     def eat_both(self):
+#         print("Eats both plants and meat")
+# class Carnivore:
+#     def eat_meat(self):
+#         print("Eats meat")
+# class bear (Herbivore,Omnivore, Carnivore):
+#     def identity(self):
+#         print("I am a Bear")
+    
+# b=bear()
+# b.eat_both()
+# b.eat_meat()
+# b.eat_plants()
